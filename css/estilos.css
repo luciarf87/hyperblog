@@ -8,6 +8,7 @@ body
     margin: 0;
     padding: 0;
 }
+
 #cabecera
 {
     background: #37488b;
@@ -17,20 +18,27 @@ body
     margin: 0;
     padding: 0.5em;
 }
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
+}
+
 #cabecera #tagline
 {
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em; 
 }
+
 #container
 {
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left; 
     border: 1px solid #ddd;
     margin: 0 auto;
-    
 }
 
 #container h1
@@ -41,4 +49,11 @@ body
 {
     background: white;
     padding: 1em;
+}
+
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
 }
